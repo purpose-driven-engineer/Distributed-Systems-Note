@@ -81,5 +81,9 @@ There are research into how to structure weak consistency guarantees so they are
 
 MapReduce is a programming model that allows for parallel processing of large data sets across multiple machines in a distributed system. It consists of two main functions: Map and Reduce. The Map function processes input data and produces intermediate key-value pairs, while the Reduce function takes these intermediate key-value pairs and combines them to produce the final output.
 
+MapReduce jobs, tasks, and workers are the key components of the MapReduce framework. A job is a complete MapReduce computation that consists of multiple tasks, which are individual units of work that can be executed in parallel across multiple machines. Workers are the machines that execute the tasks and perform the Map and Reduce functions.
+
+
+
 References:
 - [MapReduce: Simplified Data Processing on Large Clusters](https://storage.googleapis.com/gweb-research2023-media/pubtools/4449.pdf)
